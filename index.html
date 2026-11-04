@@ -27,19 +27,26 @@
                 <a href="#">L'ESSENZA</a>
             </div>
             <nav class="nav-links">
-                <a href="#servizi">Servizi</a>
-                <a href="#chi-siamo">Chi Siamo</a>
-                <a href="#galleria">Galleria</a>
-                <a href="#recensioni">Recensioni</a>
-                <a href="#contatti">Contatti</a>
+                <a href="#servizi" data-i18n="nav_services">Servizi</a>
+                <a href="#chi-siamo" data-i18n="nav_about">Chi Siamo</a>
+                <a href="#galleria" data-i18n="nav_gallery">Galleria</a>
+                <a href="#recensioni" data-i18n="nav_reviews">Recensioni</a>
+                <a href="#prenota" data-i18n="nav_book">Prenota</a>
+                <a href="#contatti" data-i18n="nav_contact">Contatti</a>
             </nav>
-            <div class="nav-cta">
-                <a href="#prenota" class="btn btn-primary btn-sm">Prenota Ora</a>
-            </div>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="nav-actions">
+                <button type="button" id="lang-toggle-btn" class="lang-toggle-btn" title="Switch to English" aria-label="Change language">
+                    <img id="lang-flag-img" src="https://flagcdn.com/w40/it.png" alt="Italiano">
+                    <span id="lang-code-text">IT</span>
+                </button>
+                <div class="nav-cta">
+                    <a href="#prenota" class="btn btn-primary btn-sm" data-i18n="nav_cta">Prenota Ora</a>
+                </div>
+                <div class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </header>
@@ -48,11 +55,11 @@
     <section class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <p class="hero-subtitle">Eccellenza e Stile</p>
-            <h1 class="hero-title">L'arte del capello, <br><span>ridefinita</span></h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">Eccellenza e Stile</p>
+            <h1 class="hero-title" data-i18n-html="hero_title">L'arte del capello, <br><span>ridefinita</span></h1>
             <div class="hero-btns">
-                <a href="#prenota" class="btn btn-primary">Prenota Ora</a>
-                <a href="#servizi" class="btn btn-outline">Scopri i Servizi</a>
+                <a href="#prenota" class="btn btn-primary" data-i18n="hero_btn_book">Prenota Ora</a>
+                <a href="#servizi" class="btn btn-outline" data-i18n="hero_btn_services">Scopri i Servizi</a>
             </div>
         </div>
     </section>
@@ -61,8 +68,8 @@
     <section id="servizi" class="services">
         <div class="container text-center">
             <div class="section-title">
-                <p>Cosa offriamo</p>
-                <h2>I Nostri Servizi</h2>
+                <p data-i18n="services_subtitle">Cosa offriamo</p>
+                <h2 data-i18n="services_title">I Nostri Servizi</h2>
             </div>
             <div class="services-grid">
                 <!-- Taglio -->
@@ -72,9 +79,12 @@
                             alt="Taglio">
                     </div>
                     <div class="service-info">
-                        <h3>Taglio</h3>
-                        <p>Dall'avanguardia al classico, ogni taglio è cucito su misura per esaltare la tua unicità.</p>
-                        <span class="price">da €45</span>
+                        <h3 data-i18n="srv_taglio_title">Taglio Couture</h3>
+                        <p data-i18n="srv_taglio_desc">Dall'avanguardia al classico, ogni taglio è cucito su misura per esaltare la tua unicità.</p>
+                        <div class="service-footer">
+                            <span class="price" data-i18n="srv_taglio_price">da €45</span>
+                            <a href="#prenota" class="service-select-btn" data-service-id="taglio" data-i18n-html="srv_book_link">Prenota <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
                 <!-- Colore -->
@@ -84,9 +94,12 @@
                             alt="Colore">
                     </div>
                     <div class="service-info">
-                        <h3>Colore</h3>
-                        <p>Tecniche esclusive di balayage e tonalizzazione per riflessi vibranti e naturali.</p>
-                        <span class="price">da €70</span>
+                        <h3 data-i18n="srv_colore_title">Colore & Balayage</h3>
+                        <p data-i18n="srv_colore_desc">Tecniche esclusive di balayage e tonalizzazione per riflessi vibranti e naturali.</p>
+                        <div class="service-footer">
+                            <span class="price" data-i18n="srv_colore_price">da €70</span>
+                            <a href="#prenota" class="service-select-btn" data-service-id="colore" data-i18n-html="srv_book_link">Prenota <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
                 <!-- Trattamenti -->
@@ -96,9 +109,12 @@
                             alt="Trattamenti">
                     </div>
                     <div class="service-info">
-                        <h3>Trattamenti Curativi</h3>
-                        <p>Rituali di benessere per rigenerare la fibra capillare in profondità.</p>
-                        <span class="price">da €30</span>
+                        <h3 data-i18n="srv_trattamenti_title">Trattamenti Curativi</h3>
+                        <p data-i18n="srv_trattamenti_desc">Rituali di benessere per rigenerare la fibra capillare in profondità.</p>
+                        <div class="service-footer">
+                            <span class="price" data-i18n="srv_trattamenti_price">da €30</span>
+                            <a href="#prenota" class="service-select-btn" data-service-id="trattamenti" data-i18n-html="srv_book_link">Prenota <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
                 <!-- Styling -->
@@ -108,9 +124,12 @@
                             alt="Styling">
                     </div>
                     <div class="service-info">
-                        <h3>Styling & Piega</h3>
-                        <p>Volume, onde o liscio perfetto per ogni occasione speciale.</p>
-                        <span class="price">da €25</span>
+                        <h3 data-i18n="srv_styling_title">Styling & Piega</h3>
+                        <p data-i18n="srv_styling_desc">Volume, onde o liscio perfetto per ogni occasione speciale.</p>
+                        <div class="service-footer">
+                            <span class="price" data-i18n="srv_styling_price">da €25</span>
+                            <a href="#prenota" class="service-select-btn" data-service-id="styling" data-i18n-html="srv_book_link">Prenota <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,26 +145,26 @@
             </div>
             <div class="about-content">
                 <div class="section-title text-left">
-                    <p>La Nostra Filosofia</p>
-                    <h2>L'Essenza del Benessere</h2>
+                    <p data-i18n="about_subtitle">La Nostra Filosofia</p>
+                    <h2 data-i18n="about_title">L'Essenza del Benessere</h2>
                 </div>
-                <p class="about-text">
+                <p class="about-text" data-i18n="about_text">
                     Fondata sulla passione per l'eccellenza, L'Essenza non è solo un salone, ma un rifugio dove bellezza
-                    e technica si incontrano. Il nostro team di stilisti internazionali è costantemente aggiornato sulle
+                    e tecnica si incontrano. Il nostro team di stilisti internazionali è costantemente aggiornato sulle
                     ultime tendenze di New York, Parigi e Milano.
                 </p>
                 <div class="about-features">
                     <div class="feature">
                         <i class="fa-solid fa-leaf"></i>
-                        <span>Prodotti Organici Premium</span>
+                        <span data-i18n="about_feat_1">Prodotti Organici Premium</span>
                     </div>
                     <div class="feature">
                         <i class="fa-solid fa-medal"></i>
-                        <span>Stilisti Certificati</span>
+                        <span data-i18n="about_feat_2">Stilisti Certificati</span>
                     </div>
                     <div class="feature">
                         <i class="fa-solid fa-heart"></i>
-                        <span>Esperienza Personalizzata</span>
+                        <span data-i18n="about_feat_3">Esperienza Personalizzata</span>
                     </div>
                 </div>
             </div>
@@ -156,8 +175,8 @@
     <section id="galleria" class="gallery">
         <div class="container">
             <div class="section-title">
-                <p>Social Portfolio</p>
-                <h2>I Nostri Ultimi Lavori</h2>
+                <p data-i18n="gallery_subtitle">Social Portfolio</p>
+                <h2 data-i18n="gallery_title">I Nostri Ultimi Lavori</h2>
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item"><img
@@ -186,22 +205,22 @@
     <section id="recensioni" class="reviews">
         <div class="container">
             <div class="section-title">
-                <p>Testimonianze</p>
-                <h2>Dicono di Noi</h2>
+                <p data-i18n="reviews_subtitle">Testimonianze</p>
+                <h2 data-i18n="reviews_title">Dicono di Noi</h2>
             </div>
             <div class="reviews-slider">
                 <div class="review-slide active">
-                    <p class="review-text">"L'Essenza è molto più di un salone. È un'esperienza di lusso vera e propria.
+                    <p class="review-text" data-i18n="review_1_text">"L'Essenza è molto più di un salone. È un'esperienza di lusso vera e propria.
                         Il mio colore non è mai stato così vibrante."</p>
                     <p class="review-author">Giulia V.</p>
                 </div>
                 <div class="review-slide">
-                    <p class="review-text">"Professionalità e cura del dettaglio incredibili. Il team ha capito
+                    <p class="review-text" data-i18n="review_2_text">"Professionalità e cura del dettaglio incredibili. Il team ha capito
                         esattamente cosa desideravo."</p>
                     <p class="review-author">Marco R.</p>
                 </div>
                 <div class="review-slide">
-                    <p class="review-text">"Un ambiente accogliente ed elegante. I trattamenti sono di altissimo
+                    <p class="review-text" data-i18n="review_3_text">"Un ambiente accogliente ed elegante. I trattamenti sono di altissimo
                         livello. Consigliatissimo!"</p>
                     <p class="review-author">Elena T.</p>
                 </div>
@@ -209,32 +228,192 @@
         </div>
     </section>
 
+    <!-- Booking Section -->
+    <section id="prenota" class="booking-section">
+        <div class="container">
+            <div class="section-title">
+                <p data-i18n="booking_subtitle">Riserva il Tuo Momento</p>
+                <h2 data-i18n="booking_title">Prenota un Appuntamento</h2>
+            </div>
+
+            <div class="booking-layout">
+                <!-- Left: Interactive Booking Form -->
+                <div class="booking-card-main">
+                    <form id="booking-form" novalidate>
+                        <!-- Step 1: Service -->
+                        <div class="booking-step">
+                            <div class="step-header">
+                                <span class="step-badge">01</span>
+                                <h3 data-i18n="step_1_title">Scegli il Trattamento</h3>
+                            </div>
+                            <div id="booking-services-list" class="booking-options-grid">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Stylist -->
+                        <div class="booking-step">
+                            <div class="step-header">
+                                <span class="step-badge">02</span>
+                                <h3 data-i18n="step_2_title">Seleziona lo Stilista</h3>
+                            </div>
+                            <div id="booking-stylists-list" class="stylists-grid">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Date & Time -->
+                        <div class="booking-step">
+                            <div class="step-header">
+                                <span class="step-badge">03</span>
+                                <h3 data-i18n="step_3_title">Data e Orario</h3>
+                            </div>
+                            <div class="date-time-wrapper">
+                                <div class="date-picker-box">
+                                    <label for="booking-date" data-i18n="label_booking_date">Giorno dell'appuntamento (Mar - Sab)</label>
+                                    <input type="date" id="booking-date" required>
+                                    <small id="date-helper-text" class="helper-text" data-i18n="date_helper_text">Orario continuato 09:00 – 19:00</small>
+                                </div>
+                                <div class="slots-box">
+                                    <label data-i18n="label_available_slots">Fasce orarie disponibili</label>
+                                    <div id="booking-slots-grid" class="slots-grid">
+                                        <!-- Populated dynamically -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 4: Customer Info -->
+                        <div class="booking-step">
+                            <div class="step-header">
+                                <span class="step-badge">04</span>
+                                <h3 data-i18n="step_4_title">I Tuoi Recapiti</h3>
+                            </div>
+                            <div class="booking-inputs-grid">
+                                <div class="form-group">
+                                    <label for="customer-name" data-i18n="label_customer_name">Nome e Cognome *</label>
+                                    <input type="text" id="customer-name" data-i18n-placeholder="ph_customer_name" placeholder="Es. Giulia Verdi" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="customer-phone" data-i18n="label_customer_phone">Telefono *</label>
+                                    <input type="tel" id="customer-phone" data-i18n-placeholder="ph_customer_phone" placeholder="Es. +39 340 123 4567" required>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label for="customer-email" data-i18n="label_customer_email">Email *</label>
+                                    <input type="email" id="customer-email" data-i18n-placeholder="ph_customer_email" placeholder="Es. giulia.verdi@email.it" required>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label for="customer-notes" data-i18n="label_customer_notes">Note o desideri particolari (opzionale)</label>
+                                    <textarea id="customer-notes" rows="2" data-i18n-placeholder="ph_customer_notes" placeholder="Allergie, preferenze di stile, lunghezze..."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="booking-form-feedback" class="booking-feedback" hidden></div>
+
+                        <button type="submit" id="booking-submit-btn" class="btn btn-primary btn-block" data-i18n-html="btn_confirm_booking">
+                            <i class="fa-regular fa-calendar-check"></i> Conferma Prenotazione
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right: Live Summary & Lookup -->
+                <aside class="booking-sidebar">
+                    <div class="summary-card">
+                        <div class="summary-header">
+                            <p data-i18n="sum_subtitle">Riepilogo</p>
+                            <h3 data-i18n="sum_title">Il Tuo Appuntamento</h3>
+                        </div>
+                        <div class="summary-body">
+                            <div class="summary-row">
+                                <span class="summary-label" data-i18n-html="sum_lbl_service"><i class="fa-solid fa-wand-magic-sparkles"></i> Servizio</span>
+                                <strong id="sum-service">—</strong>
+                            </div>
+                            <div class="summary-row">
+                                <span class="summary-label" data-i18n-html="sum_lbl_stylist"><i class="fa-solid fa-user-tie"></i> Stilista</span>
+                                <strong id="sum-stylist">Qualsiasi Stilista</strong>
+                            </div>
+                            <div class="summary-row">
+                                <span class="summary-label" data-i18n-html="sum_lbl_date"><i class="fa-regular fa-calendar"></i> Data</span>
+                                <strong id="sum-date">—</strong>
+                            </div>
+                            <div class="summary-row">
+                                <span class="summary-label" data-i18n-html="sum_lbl_time"><i class="fa-regular fa-clock"></i> Orario</span>
+                                <strong id="sum-time">—</strong>
+                            </div>
+                            <div class="summary-row">
+                                <span class="summary-label" data-i18n-html="sum_lbl_duration"><i class="fa-solid fa-hourglass-half"></i> Durata stimata</span>
+                                <strong id="sum-duration">—</strong>
+                            </div>
+                            <div class="summary-divider"></div>
+                            <div class="summary-total">
+                                <span data-i18n="sum_lbl_total">Totale stimato</span>
+                                <strong id="sum-price">€0</strong>
+                            </div>
+                        </div>
+                        <div class="summary-footer">
+                            <i class="fa-solid fa-shield-heart"></i>
+                            <span data-i18n="sum_footer_note">Pagamento in salone · Cancellazione gratuita fino a 24h prima</span>
+                        </div>
+                    </div>
+
+                    <!-- Manage / Lookup existing bookings -->
+                    <div class="lookup-card">
+                        <h4 data-i18n-html="lookup_title"><i class="fa-solid fa-magnifying-glass"></i> Gestisci Prenotazione</h4>
+                        <p data-i18n-html="lookup_desc">Inserisci il tuo codice prenotazione (es. <code>ESS-1234</code>) o la tua email per consultare o annullare un appuntamento.</p>
+                        <div class="lookup-input-group">
+                            <input type="text" id="lookup-query" data-i18n-placeholder="ph_lookup_query" placeholder="Codice ESS-XXXX o Email">
+                            <button type="button" id="lookup-btn" class="btn btn-primary btn-sm" data-i18n="btn_lookup">Cerca</button>
+                        </div>
+                        <div id="lookup-results" class="lookup-results"></div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Confirmation Modal -->
+    <div id="booking-modal" class="booking-modal-backdrop" hidden>
+        <div class="booking-modal">
+            <button type="button" id="modal-close-btn" class="modal-close" data-i18n-aria="modal_close_aria" aria-label="Chiudi">&times;</button>
+            <div class="modal-icon">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <p class="modal-subtitle" data-i18n="modal_subtitle">Prenotazione Confermata</p>
+            <h3 data-i18n="modal_title">Ti aspettiamo da L'Essenza</h3>
+            <p class="modal-desc" data-i18n="modal_desc">Conserva il tuo codice esclusivo per gestire o modificare l'appuntamento:</p>
+            <div id="modal-booking-code" class="modal-code-box">ESS-0000</div>
+            <div id="modal-booking-details" class="modal-details"></div>
+            <button type="button" id="modal-done-btn" class="btn btn-primary" data-i18n="modal_done_btn">Perfetto, Grazie</button>
+        </div>
+    </div>
+
     <!-- Contacts Section -->
     <section id="contatti" class="contact">
         <div class="container contact-container">
             <div class="contact-info">
                 <div class="section-title text-left">
-                    <p>Contattaci</p>
-                    <h2>Siamo Qui per Te</h2>
+                    <p data-i18n="contact_subtitle">Contattaci</p>
+                    <h2 data-i18n="contact_title">Siamo Qui per Te</h2>
                 </div>
                 <div class="info-item">
                     <i class="fa-solid fa-location-dot"></i>
                     <div>
-                        <h4>Indirizzo</h4>
-                        <p>Via della Bellezza 12, 10121 Torino</p>
+                        <h4 data-i18n="contact_addr_title">Indirizzo</h4>
+                        <p data-i18n="contact_addr_val">Via della Bellezza 12, 10121 Torino</p>
                     </div>
                 </div>
                 <div class="info-item">
                     <i class="fa-solid fa-clock"></i>
                     <div>
-                        <h4>Orari</h4>
-                        <p>Mar - Sab: 09:00 - 19:00<br>Lun & Dom: Chiuso</p>
+                        <h4 data-i18n="contact_hours_title">Orari</h4>
+                        <p data-i18n-html="contact_hours_val">Mar - Sab: 09:00 - 19:00<br>Lun & Dom: Chiuso</p>
                     </div>
                 </div>
                 <div class="info-item">
                     <i class="fa-solid fa-phone"></i>
                     <div>
-                        <h4>Telefono</h4>
+                        <h4 data-i18n="contact_phone_title">Telefono</h4>
                         <p>+39 011 123 4567</p>
                     </div>
                 </div>
@@ -242,15 +421,15 @@
             <div class="contact-form">
                 <form id="form-contatto">
                     <div class="form-group">
-                        <input type="text" placeholder="Nome Completo" required>
+                        <input type="text" data-i18n-placeholder="ph_contact_name" placeholder="Nome Completo" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Email" required>
+                        <input type="email" data-i18n-placeholder="ph_contact_email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Il tuo messaggio" rows="5" required></textarea>
+                        <textarea data-i18n-placeholder="ph_contact_msg" placeholder="Il tuo messaggio" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                    <button type="submit" class="btn btn-primary" data-i18n="btn_send_msg">Invia Messaggio</button>
                 </form>
             </div>
         </div>
@@ -265,7 +444,7 @@
                 <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 L'Essenza Luxury Hair. Tutti i diritti riservati.</p>
+                <p data-i18n-html="footer_copy">&copy; 2026 L'Essenza Luxury Hair. Tutti i diritti riservati.</p>
             </div>
         </div>
     </footer>
