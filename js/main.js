@@ -14,38 +14,15 @@ const LANG_META = {
         code: 'EN',
         flag: 'https://flagcdn.com/w40/gb.png',
         alt: 'English',
-        nextLabel: 'เปลี่ยนเป็นภาษาไทย (Switch to Thai)',
+        nextLabel: 'Cambiar a Español',
         locale: 'en-GB'
     },
-        es: {
+    es: {
         code: 'ES',
         flag: 'https://flagcdn.com/w40/es.png',
         alt: 'Español',
-        nextLabel: 'Cambiar a Tailandés (เปลี่ยนเป็นภาษาไทย)',
+        nextLabel: 'เปลี่ยนเป็นภาษาไทย (Switch to Thai)',
         locale: 'es-ES'
-    },
-        es: {
-        page_title: "L'Essenza | Salón de Peluquería de Lujo",
-        nav_services: "Servicios",
-        nav_about: "Sobre Nosotros",
-        nav_gallery: "Galería",
-        nav_reviews: "Reseñas",
-        nav_book: "Reservar",
-        nav_contact: "Contacto",
-        nav_cta: "Reservar Cita",
-        hero_subtitle: "Excelencia y Estilo",
-        hero_title: "El arte del cabello, <br><span>redefinido</span>",
-        hero_desc: "Una experiencia sensorial exclusiva donde la elegancia y la maestría se encuentran.",
-        hero_cta_book: "Reservar Ahora",
-        hero_cta_services: "Descubrir Servicios",
-        booking_title: "Reserva Tu Experiencia",
-        step1_title: "Selecciona el Servicio",
-        step2_title: "Elige Tu Estilista",
-        step3_title: "Fecha y Hora",
-        step4_title: "Tus Datos",
-        btn_next: "Continuar",
-        btn_prev: "Atrás",
-        btn_confirm: "Confirmar Reserva"
     },
     th: {
         code: 'TH',
@@ -285,6 +262,120 @@ const TRANSLATIONS = {
         lookup_at_time: "at",
         lookup_cancel_btn: "Cancel"
     },
+    es: {
+        page_title: "L'Essenza | Salón de Peluquería de Lujo",
+        nav_services: "Servicios",
+        nav_about: "Quiénes Somos",
+        nav_gallery: "Galería",
+        nav_reviews: "Reseñas",
+        nav_book: "Reservar",
+        nav_contact: "Contacto",
+        nav_cta: "Reservar Cita",
+        hero_subtitle: "Excelencia y Estilo",
+        hero_title: "El arte del cabello, <br><span>redefinido</span>",
+        hero_btn_book: "Reservar Ahora",
+        hero_btn_services: "Descubrir Servicios",
+        services_subtitle: "Lo que ofrecemos",
+        services_title: "Nuestros Servicios",
+        srv_taglio_title: "Corte Couture",
+        srv_taglio_desc: "De la vanguardia al clásico, cada corte está hecho a medida para realzar tu belleza única.",
+        srv_taglio_price: "desde €45",
+        srv_colore_title: "Color & Balayage",
+        srv_colore_desc: "Técnicas exclusivas de balayage y tonalización para reflejos vibrantes y naturales.",
+        srv_colore_price: "desde €70",
+        srv_trattamenti_title: "Tratamientos Reparadores",
+        srv_trattamenti_desc: "Rituales de bienestar diseñados para regenerar y nutrir la fibra capilar en profundidad.",
+        srv_trattamenti_price: "desde €30",
+        srv_styling_title: "Styling & Peinado",
+        srv_styling_desc: "Volumen, ondas suaves o liso impecable para cada ocasión especial.",
+        srv_styling_price: "desde €25",
+        srv_book_link: 'Reservar <i class="fa-solid fa-arrow-right"></i>',
+        about_subtitle: "Nuestra Filosofía",
+        about_title: "La Esencia del Bienestar",
+        about_text: "Fundado en la pasión por la excelencia, L'Essenza es más que un salón: es un santuario donde la belleza y la técnica se encuentran. Nuestro equipo internacional de estilistas está en constante actualización sobre las últimas tendencias de Nueva York, París y Milán.",
+        about_feat_1: "Productos Orgánicos Premium",
+        about_feat_2: "Estilistas Certificados",
+        about_feat_3: "Experiencia Personalizada",
+        gallery_subtitle: "Portfolio Social",
+        gallery_title: "Nuestros Últimos Trabajos",
+        reviews_subtitle: "Testimonios",
+        reviews_title: "Lo Que Dicen de Nosotros",
+        review_1_text: '"L\'Essenza es mucho más que un salón. Es una auténtica experiencia de lujo. Mi color nunca se ha visto tan vibrante."',
+        review_2_text: '"Increíble profesionalismo y cuidado del detalle. El equipo entendió a la perfección exactamente lo que buscaba."',
+        review_3_text: '"Un ambiente acogedor y sofisticado. Los tratamientos son de primer nivel. ¡Totalmente recomendado!"',
+        booking_subtitle: "Reserva Tu Momento",
+        booking_title: "Reserva Tu Cita",
+        step_1_title: "Elige el Tratamiento",
+        step_2_title: "Selecciona Tu Estilista",
+        step_3_title: "Fecha y Horario",
+        label_booking_date: "Día de la cita (Mar - Sáb)",
+        date_helper_text: "Horario continuo 09:00 – 19:00",
+        label_available_slots: "Horarios disponibles",
+        step_4_title: "Tus Datos de Contacto",
+        label_customer_name: "Nombre y Apellidos *",
+        ph_customer_name: "Ej. Giulia Verdi",
+        label_customer_phone: "Teléfono *",
+        ph_customer_phone: "Ej. +34 612 345 678",
+        label_customer_email: "Correo Electrónico *",
+        ph_customer_email: "Ej. giulia.verdi@email.es",
+        label_customer_notes: "Notas o peticiones especiales (opcional)",
+        ph_customer_notes: "Alergias, preferencias de estilo, longitud...",
+        btn_confirm_booking: '<i class="fa-regular fa-calendar-check"></i> Confirmar Reserva',
+        sum_subtitle: "Resumen",
+        sum_title: "Tu Cita",
+        sum_lbl_service: '<i class="fa-solid fa-wand-magic-sparkles"></i> Servicio',
+        sum_lbl_stylist: '<i class="fa-solid fa-user-tie"></i> Estilista',
+        sum_lbl_date: '<i class="fa-regular fa-calendar"></i> Fecha',
+        sum_lbl_time: '<i class="fa-regular fa-clock"></i> Horario',
+        sum_lbl_duration: '<i class="fa-solid fa-hourglass-half"></i> Duración estimada',
+        sum_lbl_total: "Total estimado",
+        sum_footer_note: "Pago en el salón · Cancelación gratuita hasta 24h antes",
+        lookup_title: '<i class="fa-solid fa-magnifying-glass"></i> Gestionar Reserva',
+        lookup_desc: 'Introduce tu código de reserva (ej. <code>ESS-1234</code>) o tu email para consultar o anular una cita.',
+        ph_lookup_query: "Código ESS-XXXX o Email",
+        btn_lookup: "Buscar",
+        modal_close_aria: "Cerrar",
+        modal_subtitle: "Reserva Confirmada",
+        modal_title: "Te esperamos en L'Essenza",
+        modal_desc: "Guarda tu código exclusivo de reserva para gestionar o modificar tu cita:",
+        modal_done_btn: "Perfecto, Gracias",
+        contact_subtitle: "Contáctanos",
+        contact_title: "Estamos a Tu Disposición",
+        contact_addr_title: "Dirección",
+        contact_addr_val: "Via della Bellezza 12, 10121 Turín, Italia",
+        contact_hours_title: "Horarios",
+        contact_hours_val: "Mar - Sáb: 09:00 - 19:00<br>Lun & Dom: Cerrado",
+        contact_phone_title: "Teléfono",
+        ph_contact_name: "Nombre Completo",
+        ph_contact_email: "Correo Electrónico",
+        ph_contact_msg: "Tu mensaje",
+        btn_send_msg: "Enviar Mensaje",
+        footer_copy: "&copy; 2026 L'Essenza Luxury Hair. Todos los derechos reservados.",
+        // Dynamic JS strings
+        contact_sent_alert: "¡Gracias! Tu mensaje ha sido enviado. Nos pondremos en contacto contigo en breve.",
+        unit_min_short: "min",
+        unit_min_long: "minutos",
+        time_to_select: "Por seleccionar",
+        slots_checking: "Verificando disponibilidad...",
+        slots_select_date: "Selecciona una fecha para ver los horarios disponibles.",
+        slots_closed_sun_mon: "El salón está cerrado domingos y lunes. Por favor, selecciona un día de martes a sábado.",
+        slot_booked_title: "Horario ya reservado",
+        err_select_date_time: "Por favor, selecciona una fecha válida (Mar - Sáb) y un horario disponible.",
+        err_missing_fields: "Introduce Nombre y Apellidos, Teléfono y Email para confirmar la cita.",
+        btn_submitting: '<i class="fa-solid fa-spinner fa-spin"></i> Registrando reserva...',
+        err_booking_failed: "No ha sido posible completar la reserva.",
+        modal_lbl_client: "Cliente:",
+        modal_lbl_service: "Tratamiento:",
+        modal_lbl_stylist: "Estilista:",
+        modal_lbl_datetime: "Fecha y Hora:",
+        modal_at_time: "a las",
+        modal_lbl_location: "Ubicación:",
+        modal_location_val: "Via della Bellezza 12, Turín",
+        lookup_searching: "Buscando...",
+        lookup_empty: "No se encontraron reservas activas.",
+        lookup_at_time: "a las",
+        lookup_cancel_btn: "Anular"
+    },
     th: {
         page_title: "L'Essenza | ซาลอนทำผมระดับลักชัวรี",
         nav_services: "บริการ",
@@ -415,6 +506,10 @@ const DEFAULT_SERVICES = [
                 name: 'Couture Haircut',
                 description: 'Tailored haircut designed around your facial features, including a bespoke shampoo ritual.'
             },
+            es: {
+                name: 'Corte Couture',
+                description: 'Corte a medida diseñado según las facciones de tu rostro, incluye lavado con champú específico.'
+            },
             th: {
                 name: 'ตัดผมกูตูร์ (Couture Cut)',
                 description: 'ตัดแต่งทรงผมอย่างประณีตตามโครงหน้า พร้อมแชมพูสูตรเฉพาะสำหรับสภาพเส้นผมของคุณ'
@@ -433,6 +528,10 @@ const DEFAULT_SERVICES = [
             en: {
                 name: 'Color & Balayage',
                 description: 'Exclusive lightening, balayage, and gloss toning techniques enriched with organic oils.'
+            },
+            es: {
+                name: 'Color & Balayage',
+                description: 'Técnicas exclusivas de aclarado, balayage y brillo tonalizante con aceites botánicos orgánicos.'
             },
             th: {
                 name: 'ทำสีผม & บาลายาจ',
@@ -453,6 +552,10 @@ const DEFAULT_SERVICES = [
                 name: 'Restorative Treatments',
                 description: 'Deep reconstruction ritual with botanical keratin and a relaxing cranial massage.'
             },
+            es: {
+                name: 'Tratamientos Reparadores',
+                description: 'Ritual de reconstrucción profunda con queratina botánica y masaje craneal relajante.'
+            },
             th: {
                 name: 'ทรีตเมนต์ฟื้นฟูเส้นผม',
                 description: 'ฟื้นฟูโครงสร้างผมอย่างล้ำลึกด้วยเคราตินจากธรรมชาติ พร้อมนวดศีรษะผ่อนคลาย'
@@ -471,6 +574,10 @@ const DEFAULT_SERVICES = [
             en: {
                 name: 'Styling & Blowout',
                 description: 'Glamorous blowout, soft waves, or silky straight hair with a long-lasting luminous finish.'
+            },
+            es: {
+                name: 'Styling & Peinado',
+                description: 'Peinado glamuroso, ondas suaves o liso sedoso con acabado luminoso de larga duración.'
             },
             th: {
                 name: 'จัดแต่งทรงผม & ไดร์',
@@ -491,6 +598,10 @@ const DEFAULT_SERVICES = [
                 name: "L'Essenza Complete Ritual",
                 description: "Full luxury experience: Image consultation, Haircut, Color/Balayage, Treatment & Blowout."
             },
+            es: {
+                name: "Ritual Completo L'Essenza",
+                description: "Experiencia de lujo integral: Asesoría de imagen, Corte, Color/Balayage, Tratamiento y Peinado."
+            },
             th: {
                 name: "แพ็กเกจสมบูรณ์แบบ L'Essenza",
                 description: "ประสบการณ์ครบวงจร: ให้คำปรึกษาภาพลักษณ์ ตัดผม ทำสี/บาลายาจ ทรีตเมนต์ และจัดแต่งทรง"
@@ -506,6 +617,7 @@ const DEFAULT_STYLISTS = [
         i18n: {
             it: { name: 'Qualsiasi Stilista', role: 'Primo disponibile' },
             en: { name: 'Any Stylist', role: 'First available' },
+            es: { name: 'Cualquier Estilista', role: 'Primer disponible' },
             th: { name: 'ช่างทำผมท่านใดก็ได้', role: 'คิวว่างแรกสุด' }
         }
     },
@@ -515,6 +627,7 @@ const DEFAULT_STYLISTS = [
         i18n: {
             it: { name: 'Alessandro V.', role: 'Creative Director' },
             en: { name: 'Alessandro V.', role: 'Creative Director' },
+            es: { name: 'Alessandro V.', role: 'Director Creativo' },
             th: { name: 'Alessandro V.', role: 'ครีเอทีฟไดเรกเตอร์' }
         }
     },
@@ -524,6 +637,7 @@ const DEFAULT_STYLISTS = [
         i18n: {
             it: { name: 'Sofia M.', role: 'Master Colorist' },
             en: { name: 'Sofia M.', role: 'Master Colorist' },
+            es: { name: 'Sofia M.', role: 'Colorista Maestra' },
             th: { name: 'Sofia M.', role: 'ผู้เชี่ยวชาญด้านสีผม' }
         }
     },
@@ -533,6 +647,7 @@ const DEFAULT_STYLISTS = [
         i18n: {
             it: { name: 'Lorenzo B.', role: 'Senior Hair Stylist' },
             en: { name: 'Lorenzo B.', role: 'Senior Hair Stylist' },
+            es: { name: 'Lorenzo B.', role: 'Estilista Senior' },
             th: { name: 'Lorenzo B.', role: 'ช่างทำผมอาวุโส' }
         }
     }
